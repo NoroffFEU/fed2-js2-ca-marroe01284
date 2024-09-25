@@ -9,9 +9,30 @@
   </head>
   <body>
     <h1>Profile</h1>
-
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/profile/">My Profile</a></li>
+        <li><a href="/auth/login/">Login</a></li>
+        <li><a href="/auth/register/">Register</a></li>
+        <li><a href="/post/create/">Create Post</a></li>
+      </ul>
+    </nav>
     <form name="updateProfile">
       <button>Update Profile</button>
     </form>
+    <main class="main-content">
+      <aside class="sidebar">
+        <div class="profile-container" id="profileContainer">
+        </div>
+      </aside>
+      <section class="content">
+        <div class="profile-banner">
+          <img src="" alt="" id="profileBannerImage">
+        </div>
+        <div id="posts-container">
+        </div>
+      </section>
+    </main>
   </body>
 </html>
